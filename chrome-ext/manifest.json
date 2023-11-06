@@ -7,10 +7,6 @@
     "storage",
     "<all_urls>"
   ],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
   "content_scripts": [
     {
       "matches": ["https://*.openai.com/*"],
