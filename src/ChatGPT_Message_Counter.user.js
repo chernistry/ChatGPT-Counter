@@ -44,8 +44,8 @@
         counterContainer.style.alignItems = 'center';
         counterContainer.style.justifyContent = 'center'; // Center align the text
         counterContainer.style.marginBottom = '10px';
-        counterContainer.style.padding = '4px 0';
-        counterContainer.style.fontSize = '14px';
+        counterContainer.style.padding = '3.2px 0';
+        counterContainer.style.fontSize = '13px';
         counterContainer.style.borderRadius = '4px';
         counterContainer.style.position = 'relative'; // Positioning context for reset button
         counterContainer.style.backgroundColor = '#4A90E2';
