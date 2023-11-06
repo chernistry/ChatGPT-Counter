@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "ChatGPT Message Counter",
+  "description": "This extension keeps track of your message count and reset timing when interacting with ChatGPT.",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.openai.com/*"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
