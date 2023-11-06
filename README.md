@@ -2,12 +2,14 @@
 
 This userscript helps you keep track of your message count and reset timing when interacting with ChatGPT on the OpenAI platform.
 
+![ChatGPT Message Counter Screenshot](/assets/screenshot.png)
+
 ## Features
 
-- Message count display
-- Automatic reset after a specified interval
-- Manual reset button
-- Tracking of message availability timing
+- **Message count display**: Visualize how many messages you have left in your current session.
+- **Automatic reset**: The counter resets after a specified interval, so you're always up to date.
+- **Manual reset button**: Reset the counter at any time with the click of a button.
+- **Tracking of message availability timing**: Know exactly when your next message will be available.
 
 ## Installation
 
@@ -27,7 +29,7 @@ Once installed, the script will automatically display a message counter and a re
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 
@@ -35,4 +37,11 @@ This project is open-sourced under the MIT License. See the [LICENSE](LICENSE) f
 
 ## Author
 
-Sander Chernitsky | codechernistry.com | sander@codechernistry.com
+**Sander Chernitsky**
+
+- Website: [codechernistry.com](https://codechernistry.com)
+- Email: [sander@codechernistry.com](mailto:sander@codechernistry.com)
+
+---
+
+© 2023 Sander Chernitsky, All Rights Reserved.
